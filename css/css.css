@@ -1,3 +1,12 @@
+.ba {
+    background-image: url("ba.svg");
+    height: 18px;
+    width: 18px;
+    background-position:left center;
+    margin: 0 auto;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
 .zhx{ text-decoration:line-through}
 
         .container {
@@ -469,7 +478,6 @@
             -moz-appearance: button;
             appearance: button;
             text-decoration: none;
-            background: none;
             color: inherit;
             border: none;
             padding: 0;
