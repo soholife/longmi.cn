@@ -747,14 +747,14 @@
             grid-template-columns: none;
             grid-template-rows: 1fr;
             grid-column-gap: 0;
-            padding-bottom: 37px;
+
         }
 
         @media only screen and (min-width: 768px) {
             .css-75l27b {
                 grid-template-columns: repeat(18,
                         1fr);
-                padding-bottom: 55px;
+
             }
         }
 
@@ -762,13 +762,13 @@
             .css-75l27b {
                 grid-template-columns: repeat(26,
                         1fr);
-                padding-bottom: 61px;
+
             }
         }
 
         @media only screen and (min-width: 1920px) {
             .css-75l27b {
-                padding-bottom: 55px;
+
             }
         }
 
