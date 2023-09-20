@@ -775,9 +775,9 @@
         .css-75l27b::before {
             content: "";
             position: absolute;
-            height: 1px;
+
             display: block;
             left: 0;
             right: 0;
-            background-color: #d0d0d0;
+
         }
