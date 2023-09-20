@@ -927,3 +927,6 @@
 					position: absolute;
 					transform: translateZ(0px);
 				}
+html,body {
+  overflow: hidden;
+}
