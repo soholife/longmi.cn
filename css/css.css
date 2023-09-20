@@ -781,3 +781,30 @@
             right: 0;
 
         }
+        html {
+            scroll-padding-top: calc(var(--header-height, 76px) * 1.5);
+            margin-right: calc((100vw - 100%) * -1);
+            overflow: hidden auto;
+        }
+    
+        @media only screen and (min-width: 768px) {
+            html {
+                scroll-padding-top: calc(var(--header-height, 80px) * 1.5);
+            }
+        }
+    
+        @media only screen and (min-width: 1180px) {
+            html {
+                scroll-padding-top: calc(var(--header-height, 90px) * 1.5);
+            }
+        }
+    
+        @media only screen and (min-width: 1920px) {
+            html {
+                scroll-padding-top: calc(var(--header-height, 142px) * 1.5);
+            }
+        }
+    
+        body {
+            margin-right: calc((100vw - 100%));
+        }
